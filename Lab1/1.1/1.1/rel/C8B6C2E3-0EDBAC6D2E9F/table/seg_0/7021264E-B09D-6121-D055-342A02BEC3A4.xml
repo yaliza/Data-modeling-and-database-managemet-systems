@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7021264E-B09D-6121-D055-342A02BEC3A4" name="EVENT">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>4C8ED0E0-A10A-2F64-CDA1-E9F9A0DCC2DE</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FD8C7137-23ED-DFB5-2D3D-0D1D15565DC7">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>CF574288-39B4-1F86-2427-4873B28649D4</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="E0DDCBC6-7413-686F-107F-22EAA93F71D2">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>1C440F05-1348-9DA1-2335-58689E9CFA4F</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="6723B616-5F86-8FCC-5BFD-D74A2394906B">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>CB5B734C-2350-551B-C8C6-F13C2081377C</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="6062ADE2-0AFB-BEB4-9558-BDEBC5B65B19">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>5F41D5D2-97A9-CF04-10BD-AD5D242A4289</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="3563A936-FE32-55A7-9F65-B3C946DA536E">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>6EF334BB-7B87-B7F7-32E9-831B3DB1CDA3</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Venue_Venue_ID" id="743661F9-6951-197F-18E7-40C8075BA76D">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB91595E-3A5A-C19D-DAC4-D3DAE8F5EEBA" referredColumn="F87EAE60-2130-CDD6-3669-AAE9C3328E6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37F2DD04-D559-0FA4-ABA0-0BE289F9C9A7" name="EVENT_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>CA7BFC2F-02CA-BA81-3DD2-F16889281FFE</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD8C7137-23ED-DFB5-2D3D-0D1D15565DC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F27C5B5A-CDE8-F8A9-1886-7FB3B2D4BC17" name="EVENT_Venue_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>8CD1D619-2F10-BE66-BCCD-B39447CED517</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="743661F9-6951-197F-18E7-40C8075BA76D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

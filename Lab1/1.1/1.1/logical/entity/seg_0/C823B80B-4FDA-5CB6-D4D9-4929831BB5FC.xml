@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C823B80B-4FDA-5CB6-D4D9-4929831BB5FC" name="entry-level employee">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:44:22 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="badge number" id="F747A1FD-FBB3-8D43-0E9B-4462FD59340A">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:44:52 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="1758D726-1A17-4F9E-53C6-3ED490432423">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:45:14 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="E4A93CAD-5ECC-3889-A395-8DEB7EC9EBA2">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:45:27 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="badge number1" id="805CC61D-15C7-C9B5-7301-CE5193F359E1">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:54:51 UTC</createdTime>
+<generatorID>55B87D19-CAFA-A14C-4F4C-9EA886799F15</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<referedAttribute>F35E3A3B-B8CF-A39E-A9D0-013B2C799930</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFA53481-5DBD-5625-4B57-E9F08AF57662" name="entry-level employee PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:45:06 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F747A1FD-FBB3-8D43-0E9B-4462FD59340A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

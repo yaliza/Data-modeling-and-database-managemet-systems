@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0557607-E40F-51F5-E5EA-FC3190C9E20B" name="SEMESTER_INFO">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:27:52 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="45D90A44-7CB1-8054-7444-7A378EADC67E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="EF86863D-1ABE-1C55-512C-425F6D1F762E">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:27:58 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="45D90A44-7CB1-8054-7444-7A378EADC67E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="C00B01AF-552C-0708-0B21-0C79972E7D5B">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:28:03 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="45D90A44-7CB1-8054-7444-7A378EADC67E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Course" id="E9CDB783-C6CB-EA2A-F5A0-DEF89023B699">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:28:19 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="45D90A44-7CB1-8054-7444-7A378EADC67E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="599A8DA1-9F42-D9C1-6830-4A224DFD4419" name="SEMESTER_INFO PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:28:04 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="45D90A44-7CB1-8054-7444-7A378EADC67E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF86863D-1ABE-1C55-512C-425F6D1F762E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

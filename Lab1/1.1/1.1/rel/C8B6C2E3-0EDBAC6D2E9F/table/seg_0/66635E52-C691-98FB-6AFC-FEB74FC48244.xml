@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66635E52-C691-98FB-6AFC-FEB74FC48244" name="Training_company">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>BE4AC31B-74AD-2144-5642-396B4102DE41</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EF088BD2-8A25-C163-B18F-1E45759EC93E">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>C587A740-DE36-5E37-366F-9A99BF8A753C</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="3CA99B53-F011-354A-62AF-B1F453D635AD">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>0490D453-A99E-63C4-586D-AAC2A08D13FA</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="62C0D71D-5CBA-D7DC-AFE7-28801D1BD309">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>EA6253F6-998A-31FF-E4D2-B4F1888A2AB7</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="speciality" id="B83F7EFA-00CF-52D4-5496-1F9D06B05F37">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>9D0E7B9D-5DA4-2F93-D651-BF925AF72DC6</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact_name" id="E74FF0E8-3F80-7E9B-9B22-323CBA1C9870">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>3619A375-B1AF-64A1-830D-3577669F419B</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F8CB733-92A0-DC3D-6EEE-0058C75818C4" name="Training_company_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>DC12738B-838C-5198-0939-FAF105A79A6F</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF088BD2-8A25-C163-B18F-1E45759EC93E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

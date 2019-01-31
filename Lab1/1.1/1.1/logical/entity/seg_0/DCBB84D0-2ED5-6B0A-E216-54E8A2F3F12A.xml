@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCBB84D0-2ED5-6B0A-E216-54E8A2F3F12A" name="employeev2">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:46:07 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="badge number" id="1A6E92A9-E29B-A074-EB4C-6C3C18347ED8">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:46:16 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="5DCA3DAA-EA1C-FF73-0DA6-02F5FC3F4008">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:46:32 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job" id="5E1D1B17-8864-642A-7959-BC0B713CA374">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:46:45 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="200D5B8B-5EBE-171A-7B86-9BF7C96F65D8">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:46:58 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="budget" id="14A8C6A4-E6C5-3BE9-F65A-9A38BDB6C0FF">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:47:14 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bonus plan" id="F927995A-191D-65C7-319C-D72CA6512852">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:47:34 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="car plan" id="7D4571D9-5C37-694C-055F-783E052AFEFA">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:47:46 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="badge number1" id="7551D60D-E12F-BA3D-8C86-AEC63DF56D2D">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:48:44 UTC</createdTime>
+<generatorID>82E993AE-4E7F-A049-0FA6-D968AC5215C3</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1A6E92A9-E29B-A074-EB4C-6C3C18347ED8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF62CBA4-A268-F696-D34A-B3F6EB2D0177" name="employee PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 16:46:31 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A6E92A9-E29B-A074-EB4C-6C3C18347ED8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

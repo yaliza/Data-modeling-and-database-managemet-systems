@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD27EE76-44CB-0A97-7002-535B4B4DFFE0" name="SUBJECT">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:28:39 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="45D90A44-7CB1-8054-7444-7A378EADC67E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="7C60386F-4F2F-53DC-F9E6-10468D19C9D0">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:28:44 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="45D90A44-7CB1-8054-7444-7A378EADC67E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="E1A32463-2B6C-A75A-0ADE-5FCD1520994E">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:28:50 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="45D90A44-7CB1-8054-7444-7A378EADC67E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89F63DC4-63E8-0362-110A-D38860E0558C" name="SUBJECT PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:28:47 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="45D90A44-7CB1-8054-7444-7A378EADC67E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C60386F-4F2F-53DC-F9E6-10468D19C9D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

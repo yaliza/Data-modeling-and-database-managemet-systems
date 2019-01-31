@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAC7B680-7203-8C5B-B46E-E8180BBE3BFB" name="REPORT_INFO">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>067FC526-D78A-2749-8B97-184ED05C4D48</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CF0984D0-9848-F6CC-37AB-8F6085F85734">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>9492CED9-7538-1593-4D30-0945EB405020</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estimate" id="5C2B7C34-497E-F9F3-4BA4-7D59CDE811E8">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>18DEF84E-DBEC-B7C4-6556-34F951A76353</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="48109A62-3B8E-8D8C-5619-64F4B46CF1B0">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>30CF7F98-5BB2-45C2-6892-A72C89D1FB4B</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEMESTER_SUBJECTS_ID" id="FCFE9DB1-663D-9B29-5A2A-0BEC35F40426">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>C920345D-1EB7-5A61-C005-7D62A006FA2E</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B57DB48E-11AF-B425-EB6C-899361E956D5" referredColumn="026B2650-8CD2-FA21-F9BF-47A57B081741"/>
+</associations>
+</Column>
+<Column name="STUDENT_ID" id="7734CE4A-3F4F-8445-2361-C3B6945D5B5D">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>E5F86AD0-78F2-9B7D-E401-22293FF6E482</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13AD7B8B-CBFE-2BF2-2436-86BB2A92C372" referredColumn="ABDE6CB9-5FE7-870B-5168-5216C6459953"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="956B7964-3FF7-451B-8E94-0BDE8442041F" name="REPORT_INFO_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>6E70689A-0612-6B0B-8163-10248ABA68FA</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF0984D0-9848-F6CC-37AB-8F6085F85734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E46D4D8F-2015-83DA-01E9-8110856A1C33" name="REPORT_INFO_STUDENT_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>E6C59D7A-C544-6A74-9058-E7630467FD0E</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7734CE4A-3F4F-8445-2361-C3B6945D5B5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44DA691D-8E07-43DB-0C10-C899E612B842" name="SEMESTER_SUBJECTS_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>5FBEC30D-759F-2CA2-AB17-57915E42A998</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCFE9DB1-663D-9B29-5A2A-0BEC35F40426"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

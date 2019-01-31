@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="146A3F37-F346-4BEC-8744-2A025BCEF626" name="JOB">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 15:24:16 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Job ID" id="9CF65A4F-FD2D-20B2-687A-DD95DCF2DBDE">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 15:31:33 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="04581602-C59E-FC62-8DED-5AE0C41BA105">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 15:31:47 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Max Salary" id="F182FE7D-1ACB-4601-1BB4-E848B9E75993">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 15:32:00 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Min Salary" id="3E1B2657-CD1B-1320-A779-9B55EF622D9C">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 15:32:43 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="8054B519-5DA2-CC50-F8A0-30510F8D5F21">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 15:37:54 UTC</createdTime>
+<generatorID>F61CA515-501D-FC32-39FF-2B07C4423B54</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<referedAttribute>B53330BB-09D4-1BC8-16E5-A9A640AA595E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B656EAD0-E3B6-BD8E-7B4A-9F7C8CC2B26F" name="JOB PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 15:31:45 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="C8B6C2E3-B65F-7FFB-E01F-0EDBAC6D2E9F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9CF65A4F-FD2D-20B2-687A-DD95DCF2DBDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

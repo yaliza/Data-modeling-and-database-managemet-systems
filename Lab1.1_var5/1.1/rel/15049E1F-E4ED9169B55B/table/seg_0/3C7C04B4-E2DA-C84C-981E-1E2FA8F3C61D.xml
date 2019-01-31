@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C7C04B4-E2DA-C84C-981E-1E2FA8F3C61D" name="SUBJECT">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>CD27EE76-44CB-0A97-7002-535B4B4DFFE0</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C309A59E-8C98-6BF5-3986-6A117952AA8C">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>7C60386F-4F2F-53DC-F9E6-10468D19C9D0</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="64B745EA-BB92-4E2F-B4B5-58D803F3B2F1">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>E1A32463-2B6C-A75A-0ADE-5FCD1520994E</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF1E2CEA-838C-3BDF-87D2-213F6EACC20C" name="SUBJECT_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>89F63DC4-63E8-0362-110A-D38860E0558C</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C309A59E-8C98-6BF5-3986-6A117952AA8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

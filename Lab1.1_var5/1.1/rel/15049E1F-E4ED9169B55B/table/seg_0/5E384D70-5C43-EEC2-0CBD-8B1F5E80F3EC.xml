@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E384D70-5C43-EEC2-0CBD-8B1F5E80F3EC" name="PULPIT">
+<createdBy>123ya</createdBy>
+<createdTime>2018-10-04 19:50:01 UTC</createdTime>
+<generatorID>C6C5FDAF-BFE0-E6DE-01ED-41DDBCCBC80C</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="EAB1E99A-9E61-3182-07B7-49554DCC9A39">
+<createdBy>123ya</createdBy>
+<createdTime>2018-10-04 19:50:01 UTC</createdTime>
+<generatorID>4C0CCD7E-6EF2-D3A2-6D93-F09785B6CB63</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="7452A3BD-DDD1-C334-0170-EE46905AE2EC">
+<createdBy>123ya</createdBy>
+<createdTime>2018-10-04 19:50:01 UTC</createdTime>
+<generatorID>2FFEC270-9866-5630-5E8D-33C89FE79679</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F3863C5-DC69-53B9-B9B0-89AB2CF793A8" name="PULPIT_PK">
+<createdBy>123ya</createdBy>
+<createdTime>2018-10-04 19:50:01 UTC</createdTime>
+<generatorID>B7A04397-54F1-1528-BF0F-56000A6158F9</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAB1E99A-9E61-3182-07B7-49554DCC9A39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24F6BBF9-5E35-A2CA-79C9-88316C43C65A" name="EMPLOYEEv1">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>B517FA93-3BFD-2C0B-39CF-999DD723C371</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="91AB8E46-21EE-04A3-E4BB-94889F44C15F">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>B53330BB-09D4-1BC8-16E5-A9A640AA595E</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="1D88EA8A-9A4E-95B8-DC32-835804063539">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>B69440DB-F5DE-E2FD-BAAD-A00E8F4E76E8</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="D2E0D488-958C-CDD3-15EC-0C809127234B">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>513752F2-DE1F-25EC-E7DB-67884EAE2866</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hire_Date" id="4AB1DA45-74C0-4F0B-0363-3AD2F2B22A9B">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>E3F8E43B-8B92-725E-5DA9-846EBA8C4B23</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salary" id="4585F52D-6CB8-A892-E44C-86523BD7AAD7">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>1ED67FFC-73A2-5C56-2D81-2EE4C4F43A65</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comission" id="8313E803-F643-D597-1F31-C6FD3AAEBC3F">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>178AF754-BC29-D9FD-B712-797B39DCD8D6</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENTv1_ID" id="3C9A0327-AF08-38CF-47F1-EDA71BB0551F">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>6F7035E6-E2AA-8920-A032-7F5D3F90EFC3</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="150E8A50-50ED-5E18-5E44-353547135913" referredColumn="BB750653-5A19-3799-DD7A-5E1A966DFD6D"/>
+</associations>
+</Column>
+<Column name="JOB_Job_ID" id="A039DE9F-3530-3A16-031C-9268E571FF4D">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>52CC3E3B-8F40-7383-0580-D55C41AA5F15</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="328A6CA6-3F3A-51BE-2337-D6011BE6AFBC" referredColumn="F7C1F978-AFE7-3457-BA5F-1525DFD6118D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCD8E57E-FA8E-B846-6E4C-04B36B96C2A9" name="EMPLOYEEv1_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>9BFA740D-D4D1-65F3-36D3-36AC0BD6B095</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91AB8E46-21EE-04A3-E4BB-94889F44C15F"/>
+<colUsage columnID="A039DE9F-3530-3A16-031C-9268E571FF4D"/>
+<colUsage columnID="3C9A0327-AF08-38CF-47F1-EDA71BB0551F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4239444-7708-9A17-C9A4-E91A05A4D284" name="EMPLOYEEv1_DEPARTMENTv1_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>26D1B067-CCC8-C110-28C0-870EBE4C5BE0</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C9A0327-AF08-38CF-47F1-EDA71BB0551F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2152848A-DB32-46D8-2BF3-2EBD3BE4D355" name="EMPLOYEEv1_JOB_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>F61CA515-501D-FC32-39FF-2B07C4423B54</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A039DE9F-3530-3A16-031C-9268E571FF4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

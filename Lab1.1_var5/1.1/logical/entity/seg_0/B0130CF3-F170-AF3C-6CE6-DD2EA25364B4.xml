@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0130CF3-F170-AF3C-6CE6-DD2EA25364B4" name="SEMESTER_SUBJECTS">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:27:01 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="15049E1F-F3FA-C5FA-1E4C-E4ED9169B55B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="F1ECCB14-01F8-7141-B079-1FD6FD64C242">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:27:10 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="15049E1F-F3FA-C5FA-1E4C-E4ED9169B55B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoursNumber" id="5E69D978-F976-7ED4-BB10-2A0FBA8F761D">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:27:22 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="15049E1F-F3FA-C5FA-1E4C-E4ED9169B55B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="81821C03-84D4-2C4D-A917-FA1362F5F51F">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:31:40 UTC</createdTime>
+<generatorID>5CF33FFC-6C73-81E8-5080-9428BFD2B1B6</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="15049E1F-F3FA-C5FA-1E4C-E4ED9169B55B" value="true"/>
+</engineerTo>
+<referedAttribute>EF86863D-1ABE-1C55-512C-425F6D1F762E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="9EEAE924-8061-B4E6-BFCC-B9FAC1000301">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:31:49 UTC</createdTime>
+<generatorID>D4192DC2-8665-CDE2-2FFC-8BBFBBB4BEA1</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="15049E1F-F3FA-C5FA-1E4C-E4ED9169B55B" value="true"/>
+</engineerTo>
+<referedAttribute>509B6A7E-6259-826A-E8FF-DE4463D06D5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="D62BC1ED-9A06-81BC-149A-C3BF789426D2">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:31:58 UTC</createdTime>
+<generatorID>107EC308-E2D6-A72B-120C-5CF52AB95BBA</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="15049E1F-F3FA-C5FA-1E4C-E4ED9169B55B" value="true"/>
+</engineerTo>
+<referedAttribute>7C60386F-4F2F-53DC-F9E6-10468D19C9D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3149D04A-39B3-1D83-5D6D-13174634B4CC" name="SEMESTER_SUBJECTS PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 10:27:13 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<engineerTo>
+<item key="15049E1F-F3FA-C5FA-1E4C-E4ED9169B55B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1ECCB14-01F8-7141-B079-1FD6FD64C242</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

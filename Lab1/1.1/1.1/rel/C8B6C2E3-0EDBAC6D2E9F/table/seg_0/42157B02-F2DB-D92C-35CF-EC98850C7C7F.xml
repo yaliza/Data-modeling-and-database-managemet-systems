@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42157B02-F2DB-D92C-35CF-EC98850C7C7F" name="private_home">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>31610DD5-352C-68AD-01B2-F980FC652072</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Venue_Venue_ID" id="F893F14F-EEAC-EDF8-75F3-7D644DD61EF4">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7537BD2-E748-14A4-AF6B-E55C0CA21832" referredColumn="F87EAE60-2130-CDD6-3669-AAE9C3328E6A"/>
+</associations>
+</Column>
+<Column name="accessibility" id="298C8CE6-D5F2-3B41-2841-84BDD0913B4E">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>DBC37295-F0AE-E89E-C37C-8451FBF3DE85</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A7E2BFE-FF33-A54B-AF00-7A6C8629CCAF" name="private_home_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F893F14F-EEAC-EDF8-75F3-7D644DD61EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AF352B0-D61F-5991-DCED-243FA6C86C78" name="private_home_Venue_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>58277188-DEF5-B365-BA2F-83C46D38F22E</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F893F14F-EEAC-EDF8-75F3-7D644DD61EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

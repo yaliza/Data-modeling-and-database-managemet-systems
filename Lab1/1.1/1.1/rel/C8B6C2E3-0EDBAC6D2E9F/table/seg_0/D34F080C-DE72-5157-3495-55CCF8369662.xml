@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D34F080C-DE72-5157-3495-55CCF8369662" name="Training_events">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>AE1BA97D-9B7C-6173-03DB-50C7EC475A56</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AE041837-B8DE-8755-0CDC-9BA571823699">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>37E585EA-CB58-93D3-CD63-7EA76E6DBFC0</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="3FE28DE5-0B96-EF94-151B-E3BA78D9103D">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>001C4CE2-F29F-4235-D11C-17ECE08C758E</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="FE09C849-024B-EDC5-7DA1-08F9209814E0">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>1373F847-E4DE-958F-477D-43A6A1784A91</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Training_company_id" id="DF1A6AD1-B2C5-FB5B-338F-41961B25878F">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>D777B796-5DA6-74B2-9849-87E036A99740</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF49D502-E2B3-5316-D0B6-082229614689" referredColumn="EF088BD2-8A25-C163-B18F-1E45759EC93E"/>
+</associations>
+</Column>
+<Column name="In_house_trainer_ID" id="908C7CBF-558B-7CE8-6DAC-9D53BC9EDF57">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>BE42F557-3DB5-752C-13D3-8C106A5D7DB9</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95EACEC7-FBB3-B9B5-321C-D7A3890FF420" referredColumn="7F93278B-32C0-8BF6-3185-C0F42D52B331"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9623FB7F-CE57-B8D1-490F-4336A594A5F9" name="Training_events_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>BDCD2ADC-6A53-5CC6-DB7F-2CD9FC5F43CD</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE041837-B8DE-8755-0CDC-9BA571823699"/>
+<colUsage columnID="908C7CBF-558B-7CE8-6DAC-9D53BC9EDF57"/>
+<colUsage columnID="DF1A6AD1-B2C5-FB5B-338F-41961B25878F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B71A2040-72B8-C879-63EF-DE763AF9F31C" name="Training_events_In_house_trainer_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>C9F5C162-1154-B178-5291-A7BBD9B8F564</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="908C7CBF-558B-7CE8-6DAC-9D53BC9EDF57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88B29DA3-E041-7529-02B6-5ACA69F636F4" name="Training_events_Training_company_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>86398487-0D8D-E500-ECB3-D8936D0D0DD2</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF1A6AD1-B2C5-FB5B-338F-41961B25878F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

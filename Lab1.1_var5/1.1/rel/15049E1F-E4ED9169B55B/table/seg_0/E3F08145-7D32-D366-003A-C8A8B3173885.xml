@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3F08145-7D32-D366-003A-C8A8B3173885" name="STUDENT">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>A358276E-9779-08B7-ADE2-5DE3ED1DA99E</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="ABDE6CB9-5FE7-870B-5168-5216C6459953">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>9C8D3B79-57DD-A1AD-C7AD-B32A2DF9C02A</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="AB292622-11D8-91E8-4D20-846F1B415D6D">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>66A08DB3-F023-299C-8DBB-06EB63B84F94</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PULPIT_ID" id="962760FB-187F-4D95-C5D7-F22608EE7AAE">
+<createdBy>123ya</createdBy>
+<createdTime>2018-10-04 19:50:01 UTC</createdTime>
+<generatorID>EBB33CA7-BD0F-0DAA-15CA-A028EE9A317A</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35F4891C-4725-8FAD-7BD3-B03EBD698A3F" referredColumn="EAB1E99A-9E61-3182-07B7-49554DCC9A39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB098E0B-E841-5626-D5CC-8E8CF14C2FCF" name="STUDENT_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>02B36608-7DF6-0734-7630-E508974E63B9</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABDE6CB9-5FE7-870B-5168-5216C6459953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="352AF469-6B8E-9548-509B-1D4BB0EB7854" name="STUDENT_PULPIT_FK">
+<createdBy>123ya</createdBy>
+<createdTime>2018-10-04 19:50:01 UTC</createdTime>
+<generatorID>85AC51B6-CCC2-D0D6-838D-DDD37A3970C3</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="962760FB-187F-4D95-C5D7-F22608EE7AAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

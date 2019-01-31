@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F78442CB-5B98-9BC3-B5BF-B6D3908DE4FC" name="SEMESTER_SUBJECTS">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>B0130CF3-F170-AF3C-6CE6-DD2EA25364B4</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="026B2650-8CD2-FA21-F9BF-47A57B081741">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>F1ECCB14-01F8-7141-B079-1FD6FD64C242</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoursNumber" id="433711A3-0D5F-997B-453E-517507D61B6A">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>5E69D978-F976-7ED4-BB10-2A0FBA8F761D</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEMESTER_INFO_ID" id="73D30958-D38D-66FE-71A9-6D70BF730B96">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>81821C03-84D4-2C4D-A917-FA1362F5F51F</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BAF726F-8A4D-1FC3-7E14-425A5A7BB93A" referredColumn="E3E7CEE7-A496-07B3-BD73-8C4F04E1FE5F"/>
+</associations>
+</Column>
+<Column name="REPORTING_ID" id="78CAA886-2B74-1FAA-09E7-C4E476855222">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>9EEAE924-8061-B4E6-BFCC-B9FAC1000301</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFBEFAE6-3B0E-F733-94BF-5B22308761E8" referredColumn="451BFDA0-699E-CDEA-8987-84DC933EF075"/>
+</associations>
+</Column>
+<Column name="SUBJECT_ID" id="EA1311FE-9E5D-B652-8E98-7CE9DD8E9CD7">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>D62BC1ED-9A06-81BC-149A-C3BF789426D2</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9030BE2-7EB0-CAF0-8AC3-5D61A5573A8A" referredColumn="C309A59E-8C98-6BF5-3986-6A117952AA8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="254BF668-CF49-0652-1EE3-BF59F14F1863" name="SEMESTER_SUBJECTS_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>3149D04A-39B3-1D83-5D6D-13174634B4CC</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="026B2650-8CD2-FA21-F9BF-47A57B081741"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="797AE112-276B-5120-4F77-5C2EAAE0CC03" name="SEMESTER_INFO_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>5CF33FFC-6C73-81E8-5080-9428BFD2B1B6</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73D30958-D38D-66FE-71A9-6D70BF730B96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D8AA295-E0E4-DEDE-0CA9-14A27A64C8DA" name="REPORTING_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>D4192DC2-8665-CDE2-2FFC-8BBFBBB4BEA1</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78CAA886-2B74-1FAA-09E7-C4E476855222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11CA868F-596E-3971-0CBD-6D4FB3B0FBD1" name="SUBJECT_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-17 11:02:13 UTC</createdTime>
+<generatorID>107EC308-E2D6-A72B-120C-5CF52AB95BBA</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA1311FE-9E5D-B652-8E98-7CE9DD8E9CD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

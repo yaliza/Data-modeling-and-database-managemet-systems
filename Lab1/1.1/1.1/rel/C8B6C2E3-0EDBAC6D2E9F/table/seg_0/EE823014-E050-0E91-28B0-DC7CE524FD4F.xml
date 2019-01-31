@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE823014-E050-0E91-28B0-DC7CE524FD4F" name="Relation_student_teacher">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEACHER_TEACHER_ID" id="47C9F65B-C390-6A7D-1D8F-92A58E542D5A">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BE6AA0E-C60E-7F1F-623C-687B238BD708" referredColumn="6C49AD02-79AD-6144-0853-3EEE9F683509"/>
+</associations>
+</Column>
+<Column name="STUDENT_STUDENT_ID" id="27BF6E12-B420-40CE-D1C4-719F24933281">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEB8B41A-07C2-9A81-00D0-20EC8DADD381" referredColumn="1AF26F0D-C85B-7865-63EA-D5F4EB590E38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38863E5C-91DB-0786-5AC4-8BCE7DD0019F" name="Relation_student_teacher_PK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<ownerDesignName>1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47C9F65B-C390-6A7D-1D8F-92A58E542D5A"/>
+<colUsage columnID="27BF6E12-B420-40CE-D1C4-719F24933281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA44C26E-DDA2-A649-91B0-CB336BCAAE73" name="Relation_student_teacher_TEACHER_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>2D66ED9E-7225-1484-6553-A44DBE47E716</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47C9F65B-C390-6A7D-1D8F-92A58E542D5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="169CF232-C764-6EF4-3604-CEBDA5901793" name="Relation_student_teacher_STUDENT_FK">
+<createdBy>K501</createdBy>
+<createdTime>2018-09-08 17:02:07 UTC</createdTime>
+<generatorID>2D66ED9E-7225-1484-6553-A44DBE47E716</generatorID>
+<ownerDesignName>1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27BF6E12-B420-40CE-D1C4-719F24933281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
